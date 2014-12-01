@@ -36,7 +36,13 @@ public class MainActivity extends Activity {
 			i.putExtra("user", user);
 			startActivity(i);
 			return true;
-		}else{
+		} else if (id == R.id.Codigo) {
+			Intent i = new Intent(MainActivity.this, Cadastrar_Codigo.class);
+//			i.putExtra("user", user);
+			startActivity(i);
+			return true;
+		}
+		else{
 			if (id == R.id.Search) {
 				//TODO: call intent Search
 				return true;

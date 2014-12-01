@@ -12,5 +12,6 @@
     <string name="Search">Efetuar Comparação</string>
     <string name="title_activity_items_list">ItemsListActivity</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_cadastrar_codigo">Cadastrar Código de Barras</string>
 
 </resources>

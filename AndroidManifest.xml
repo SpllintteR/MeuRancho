@@ -30,6 +30,10 @@
             android:name=".ItemsListActivity"
             android:label="@string/title_activity_items_list" >
         </activity>
+        <activity
+            android:name=".Cadastrar_Codigo"
+            android:label="@string/title_activity_cadastrar_codigo" >
+        </activity>
     </application>
 
 </manifest>
