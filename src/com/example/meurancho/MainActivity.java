@@ -15,7 +15,7 @@ public class MainActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		
-		user = savedInstanceState.getString("user");
+		user = getIntent().getStringExtra("user");
 	}
 
 	@Override
