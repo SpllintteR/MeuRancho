@@ -8,7 +8,7 @@
         android:id="@+id/editText1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:ems="10"
+        android:ems="30"
         android:text="Insira o código de barras" >
 
         <requestFocus />
@@ -16,8 +16,9 @@
 
     <TextView
         android:id="@+id/textView1"
-        android:layout_width="72dp"
+        android:layout_width="40dp"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="130dp"
         android:text="ou" />
 
     <Button
@@ -30,6 +31,7 @@
         android:id="@+id/textView2"
         android:layout_width="41dp"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="130dp"
         android:text="ou" />
 
     <Button
