@@ -1,5 +1,7 @@
 package com.example.meurancho;
 
+import java.util.Locale;
+
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -50,6 +52,12 @@ public class MainActivity extends Activity {
 				if (id == R.id.SearchHistory) {
 					//TODO: call intent SearchHistory
 					return true;
+				}else{
+					if (id == R.id.SelMarket) {
+						Intent i = new Intent(MainActivity.this, SelMarketActivity.class);
+						startActivity(i);
+						return true;
+					}
 				}
 			}
 		}

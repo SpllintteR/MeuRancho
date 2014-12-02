@@ -34,6 +34,10 @@
             android:name=".Cadastrar_Codigo"
             android:label="@string/title_activity_cadastrar_codigo" >
         </activity>
+        <activity
+            android:name=".SelMarketActivity"
+            android:label="@string/title_activity_sel_market" >
+        </activity>
     </application>
 
 </manifest>
